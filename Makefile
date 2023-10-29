@@ -1,5 +1,7 @@
 name: Github CI
 on:
+  # Configura servidor de CI para executar o pipeline de tarefas abaixo (jobs) quando 
+  # um push ou pull request for realizado tendo como alvo a branch main
   push:
     branches:
       - main
